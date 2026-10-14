@@ -93,6 +93,49 @@ nav {
     color: var(--coral);
 }
 
+/* Página de contacto */
+.contacto {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 30px 20px;
+}
+
+.contacto h1, .contacto p {
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.contacto input,.contacto textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font: inherit;
+    box-sizing: border-box;
+}
+
+.contacto textarea {
+    resize: vertical;
+}
+
+.contacto button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font: inherit;
+}
+
+.contacto button:hover {
+    opacity: 0.85;
+}
+
 .btn {
     display: inline-block;
     padding: 13px 25px;
